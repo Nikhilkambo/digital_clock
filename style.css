@@ -1,0 +1,46 @@
+body {
+    background: black;
+    color: #17D4FE;
+    font-family: Orbitron;
+
+}
+.name_text{
+    font-size: 60px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+.day_month_year{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+ @media screen and (max-width: 1010px) {
+    .clock{
+        top: 30%;
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .day_month_year{
+        top: 36%;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    .name_text{
+        font-size: 11px;
+    }
+    
+}
